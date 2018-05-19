@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f57c45efd59684e93789c922ee0ed7, type: 3}
+  m_Name: Blot
+  m_EditorClassIdentifier: 
+  _kritterType: 0
+  _minCd: 15
+  _maxCd: 25
+  _needTimeout: 10
+  _nonePercentage: 0.2
+  _foodPercentage: 0.2
+  _waterPercentage: 0.4
+  _attentionPercentage: 0.2
+  _matingTimer: 10
+  _fightingTimer: 10
+  _movementSpeed: 5
+  _startingHealth: 3
+  _aggroRadius: 0.5
+  _spawnPitch: 1
+  _frontSprites:
+  - {fileID: 21300000, guid: 6e6be237c9e070345bef2abc7b230b73, type: 3}
+  - {fileID: 21300000, guid: 05f9f51418bff8e4abb0ec56d044a037, type: 3}
+  - {fileID: 21300000, guid: 06816d1965076544eb632b87a516a159, type: 3}
+  - {fileID: 21300000, guid: 425c55d62963c1a49ba078f5828025bb, type: 3}
+  _backSprites:
+  - {fileID: 21300000, guid: 69ba56ef2cbcac44090a8e0f2e7ec28e, type: 3}
+  - {fileID: 21300000, guid: ef73ed9c4a1eb364585ca3e8dda5628f, type: 3}
+  - {fileID: 21300000, guid: a7fd1216a0292b34d8d4cb947fa37c5f, type: 3}
+  - {fileID: 21300000, guid: c429285b7464f354a8ac709379113141, type: 3}

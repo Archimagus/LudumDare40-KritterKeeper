@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f57c45efd59684e93789c922ee0ed7, type: 3}
+  m_Name: Fret
+  m_EditorClassIdentifier: 
+  _kritterType: 3
+  _minCd: 15
+  _maxCd: 25
+  _needTimeout: 10
+  _nonePercentage: 0.2
+  _foodPercentage: 0.2
+  _waterPercentage: 0.2
+  _attentionPercentage: 0.4
+  _matingTimer: 7
+  _fightingTimer: 10
+  _movementSpeed: 5
+  _startingHealth: 3
+  _aggroRadius: 0.5
+  _spawnPitch: 1.25
+  _frontSprites:
+  - {fileID: 21300000, guid: b369d0662dfd8354cb78313fed0f1b6f, type: 3}
+  - {fileID: 21300000, guid: 9e7f54969cbaaed4f9dddb356d73f9d8, type: 3}
+  - {fileID: 21300000, guid: 19276634253921d47a8374bf9b71e9dd, type: 3}
+  - {fileID: 21300000, guid: 1aef3d98f8511124bb42f27995bc9f4e, type: 3}
+  _backSprites:
+  - {fileID: 21300000, guid: 9729dfc78d2e7904d9a0670ed48ebcf3, type: 3}
+  - {fileID: 21300000, guid: 456a1afb59b7d3c448bd43b299f957a8, type: 3}
+  - {fileID: 21300000, guid: 0554e311939c20c4e965fccf571873ad, type: 3}
+  - {fileID: 21300000, guid: e317580a84fbce2479a12e9587716f9b, type: 3}

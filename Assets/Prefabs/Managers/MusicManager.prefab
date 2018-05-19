@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1760989698994944}
+  m_IsPrefabParent: 1
+--- !u!1 &1760989698994944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165530290259558}
+  - component: {fileID: 114482085774458006}
+  m_Layer: 0
+  m_Name: MusicManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165530290259558
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760989698994944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5416327, y: 3.0455914, z: 0.4305189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114482085774458006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1760989698994944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e8a4674ff9ba349964e05bb038e4ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixerGroup: {fileID: 243358518449378932, guid: b2adae43d17942149a38aee8fc53d23e,
+    type: 2}
+  _fadeTime: 0.75
+  _musicClips:
+  - {fileID: 8300000, guid: 03f92c2cd33b04a49a727dc157d12d3d, type: 3}
+  - {fileID: 8300000, guid: aacdb1af01a014f4098cd054288f71a5, type: 3}
+  - {fileID: 8300000, guid: 7d0be4170c5369a44a98eecb78a1f042, type: 3}
+  - {fileID: 8300000, guid: b8da65c34f20043418db6119678cbff0, type: 3}
+  - {fileID: 8300000, guid: 2b9bf535fd659cd4f8e75b4df6fdb8a9, type: 3}
+  - {fileID: 8300000, guid: 74996869a6cf42a45abc5c5b4d3431c1, type: 3}
+  - {fileID: 8300000, guid: 4c9645d3d1396fc4eb95b152954bd8a6, type: 3}
+  - {fileID: 8300000, guid: 8ff0be6cd2fb936439a5fa0ec2e367e0, type: 3}

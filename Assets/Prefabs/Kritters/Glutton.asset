@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f57c45efd59684e93789c922ee0ed7, type: 3}
+  m_Name: Glutton
+  m_EditorClassIdentifier: 
+  _kritterType: 4
+  _minCd: 15
+  _maxCd: 25
+  _needTimeout: 10
+  _nonePercentage: 0.2
+  _foodPercentage: 0.4
+  _waterPercentage: 0.2
+  _attentionPercentage: 0.2
+  _matingTimer: 10
+  _fightingTimer: 10
+  _movementSpeed: 2
+  _startingHealth: 3
+  _aggroRadius: 0.5
+  _spawnPitch: 0.5
+  _frontSprites:
+  - {fileID: 21300000, guid: f97580c82276e8143afc847e9bb6916e, type: 3}
+  - {fileID: 21300000, guid: f0d711b95f27862499300bb631bbc170, type: 3}
+  - {fileID: 21300000, guid: e498394e11e08dc40937643c7eee282f, type: 3}
+  - {fileID: 21300000, guid: 600eebad068904846ada8272f43c57e4, type: 3}
+  _backSprites:
+  - {fileID: 21300000, guid: c79a084c3d5be9e40ae1dd15c8b5077d, type: 3}
+  - {fileID: 21300000, guid: 00353c46204a47649b6d20f8520e747a, type: 3}
+  - {fileID: 21300000, guid: 5607afee167c60548a8f7cb3f775dc71, type: 3}
+  - {fileID: 21300000, guid: b9874a0790886a243b30dbb485476b63, type: 3}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f57c45efd59684e93789c922ee0ed7, type: 3}
+  m_Name: Snarl
+  m_EditorClassIdentifier: 
+  _kritterType: 1
+  _minCd: 15
+  _maxCd: 25
+  _needTimeout: 10
+  _nonePercentage: 0.25
+  _foodPercentage: 0.25
+  _waterPercentage: 0.25
+  _attentionPercentage: 0.25
+  _matingTimer: 10
+  _fightingTimer: 7
+  _movementSpeed: 5
+  _startingHealth: 3
+  _aggroRadius: 0.5
+  _spawnPitch: 0.75
+  _frontSprites:
+  - {fileID: 21300000, guid: 39bc8f11a9389a842a1aabd0abdb1276, type: 3}
+  - {fileID: 21300000, guid: 9a0b280322776af40b831641cac21059, type: 3}
+  - {fileID: 21300000, guid: 7a1d1c0ddc7de2e45adc993bb9e3f655, type: 3}
+  - {fileID: 21300000, guid: 487532f7ea7fed74f94eccf4d2ac4d9d, type: 3}
+  _backSprites:
+  - {fileID: 21300000, guid: d7f91bf268c844847a360a1a77fe1ad7, type: 3}
+  - {fileID: 21300000, guid: a76cf78675fdc43498f367fd7bc2f63b, type: 3}
+  - {fileID: 21300000, guid: 847924d3bdba3694993c3aaf570d6eda, type: 3}
+  - {fileID: 21300000, guid: a1219e9cb4862094d9af679cd7909e36, type: 3}
